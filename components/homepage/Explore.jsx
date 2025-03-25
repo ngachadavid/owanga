@@ -14,13 +14,20 @@ export default function Explore() {
 
                 <div className="grid grid-cols-[1.2fr_0.8fr_1.2fr] gap-2 justify-center items-center">
                     <div className="text-sm text-start">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum- my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum- my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                        Step into a curated collection of works that blend creativity, strategy,
+                        and storytelling. Each project is an exploration of form, function,
+                        and impact—designed to engage, inspire, and leave a lasting impression.
+                        From brand identities to digital experiences, every piece reflects a
+                        dedication to innovation and detail.
                     </div>
-                    <div className="p-4 text-4xl font-bold">
-                    EXPLORA <br /> TORIUM
+                    <div className="p-4 text-2xl font-bold">
+                        EXPLORA <br /> TORIUM
                     </div>
                     <div className="text-sm text-end">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum- my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum- my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                        Whether it's branding, UI/UX, motion graphics, or digital art, this is
+                        where ideas come to life. Dive in, explore the creative process, and
+                        discover the thought and craftsmanship behind every design.
+                        Welcome to the visual journey of Isaac Okoth.
                     </div>
                 </div>
             </div>

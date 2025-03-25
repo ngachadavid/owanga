@@ -27,18 +27,21 @@ export default function About() {
         <div className="w-1/2 flex flex-col gap-6">
           {/* Top - Image */}
           <div className='mt-20'>
-            <img 
-              src="/homepage/isaac.png" 
-              alt="About section image" 
+            <img
+              src="/homepage/isaac.png"
+              alt="About section image"
               className="w-full h-auto rounded-lg"
             />
           </div>
           <div className='text-center text-sm'>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorperLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vo- lutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+            Every pixel, every stroke, every detail tells a story. With a passion for
+            branding, UI/UX, and digital design, I transform ideas into visual narratives
+            that resonate. Whether crafting a sleek interface or building a compelling
+            brand identity, my goal remains the same—creating design that speaks.
           </div>
           <div className='flex flex-col items-center text-center mt-10'>
-          <p className='font-extrabold text-lg tracking-[0.8em]'>PROFICIENCY</p>
-          <div className="flex gap-4 mt-4">
+            <p className='font-extrabold text-lg tracking-[0.8em]'>PROFICIENCY</p>
+            <div className="flex gap-4 mt-4">
               <Icons.Photoshop className="w-12 h-12" />
               <Icons.Illustrator className="w-12 h-12" />
               <Icons.Premiere className="w-12 h-12" />
@@ -47,9 +50,9 @@ export default function About() {
               <Icons.InDesign className="w-12 h-12" />
               <Icons.AfterEffects className="w-12 h-12" />
             </div>
-          <p className='font-extrabold text-lg tracking-[0.8em] mt-4'>SKILLS</p>
+            <p className='font-extrabold text-lg tracking-[0.8em] mt-4'>SKILLS</p>
           </div>
-          </div>
+        </div>
       </div>
     </section>
   );

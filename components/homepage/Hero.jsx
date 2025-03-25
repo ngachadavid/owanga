@@ -7,16 +7,18 @@ export default function Hero() {
       <div className="max-w-lg">
         <h1 className="text-[100px] font-extrabold text-[#be3af2] leading-[0.85]">Creative Conscience</h1>
         <p className="text-base text-black font-bold mt-6">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+          Design is more than aesthetics—it's a conversation, a statement, a movement.
+          With a bold vision and an innovative approach, I craft visual experiences that
+          engage, inspire, and leave a lasting impression.
         </p>
       </div>
-      
+
       {/* Right Side - Image */}
       <div className="w-1/2">
-        <img 
+        <img
           src="/homepage/hero.png"
           alt="Isaac Okoth"
-          className="w-full rounded-lg \" 
+          className="w-full rounded-lg \"
         />
       </div>
     </section>
