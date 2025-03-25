@@ -5,7 +5,7 @@ export default function Logos() {
     <section className="bg-black text-white py-20">
       <div className="max-w-[1286px] mx-auto px-4 text-center">
         {/* Title */}
-        <h2 className="text-white text-6xl">Logofolio</h2>
+        <h2 className="text-white text-6xl font-bold">Logofolio</h2>
 
         {/* Line under the title */}
         <div className="h-[2px] bg-white/50 mx-auto mt-10 mb-32"></div>
