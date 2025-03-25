@@ -8,7 +8,7 @@ export default function Logos() {
         <h2 className="text-white text-6xl">Logofolio</h2>
 
         {/* Line under the title */}
-        <div className="w- h-[2px] bg-white/50 mx-auto mt-10 mb-32"></div>
+        <div className="h-[2px] bg-white/50 mx-auto mt-10 mb-32"></div>
 
         {/* Logos Grid */}
         <div className="flex flex-wrap justify-center items-cnter gap-x-30 gap-y-20">

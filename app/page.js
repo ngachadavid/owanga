@@ -1,5 +1,6 @@
 import Navbar from '@/components/global/Navbar'
 import About from '@/components/homepage/About'
+import Explore from '@/components/homepage/Explore'
 import Hero from '@/components/homepage/Hero'
 import Logos from '@/components/homepage/Logos'
 import Skills from '@/components/homepage/Skills'
@@ -15,6 +16,7 @@ export default function Home () {
       <Skills />
       <Logos />
       <Works />
+      <Explore />
        </div>
   )
 }
