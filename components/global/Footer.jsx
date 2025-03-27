@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="max-w-[1286px] mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-10">
 
                 {/* Left - Contact Form */}
-                <div className="w-full md:w-1/2 bg-white p-6 md:p-10">
+                <div className="w-full md:w-1/2 bg-white py-6 md:py-10">
                     <h2 className="text-sm md:text-base bg-[#be3af2] text-white font-bold py-3 px-4 rounded-full inline-block mb-10">
                         Get in Touch
                     </h2>
@@ -43,10 +43,10 @@ export default function Footer() {
 
                 {/* Right - Image */}
                 <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
-                    <img src="/homepage/footer.png" alt="Footer Image" className="w-full h-auto rounded-lg mb-6 bg-red-400" />
+                    <img src="/homepage/footer.png" alt="Footer Image" className="w-full md:w-[80%] h-auto rounded-lg mb-6" />
                     
                     {/* Contact Links */}
-                    <div className="grid grid-cols-2 gap-4 w-full md:w-auto text-sm">
+                    <div className="grid grid-cols-2 gap-4 w-full md:w-auto text-xs md:text-sm">
                         {/* Phone */}
                         <div className="flex items-center space-x-2">
                             <FaPhone className="text-[#be3af2]" />
