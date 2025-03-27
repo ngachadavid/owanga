@@ -17,18 +17,25 @@ export default function Works() {
           className="w-full h-screen"
         />
       </div>
-      <div className="mt-20">
+      <div className="mt-10">
         <img 
           src="/works/dante.png" 
           alt="Branding showcase" 
           className="w-full h-auto"
         />
       </div>
-      <div className="mt-20">
+      <div className="mt-10">
         <img 
           src="/works/tilapia.png" 
           alt="Branding showcase" 
           className="w-full h-screen"
+        />
+      </div>
+      <div className="mt-10">
+        <img 
+          src="/works/nivea.jpg" 
+          alt="Branding showcase" 
+          className="w-full h-auto"
         />
       </div>
     </section>

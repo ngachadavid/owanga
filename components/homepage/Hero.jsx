@@ -18,7 +18,7 @@ export default function Hero() {
         <img
           src="/homepage/hero.png"
           alt="Isaac Okoth"
-          className="w-full rounded-lg \"
+          className="w-full h-auto rounded-lg"
         />
       </div>
     </section>
