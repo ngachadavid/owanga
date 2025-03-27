@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Left Side - Text */}
       <div className="max-w-lg text-left">
         <h1 className="text-5xl md:text-[100px] font-bold md:font-extrabold text-[#be3af2] leading-[0.85]">
-          Creative <span className='italic pl-8'>Conscience </span>
+          Creative <span className='italic pl-8 md:pl-0'>Conscience </span>
         </h1>
         <p className="text-xs md:text-base text-black font-bold mt-4 md:mt-6 pl-20 md:pl-0">
           Design is more than aesthetics—it's a conversation, a statement, a movement.
