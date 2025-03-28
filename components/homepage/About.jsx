@@ -6,21 +6,21 @@ export default function About() {
     <section className="bg-black text-white min-h-screen pt-20 md:pt-0">
       <div className='flex flex-col md:flex-row items-center justify-between px-4 max-w-[1286px] mx-auto'>
         {/* Left Side - Geometric Design */}
-        <div className="w-full md:w-1/2 relative h-[500px] md:h-auto">
+        <div className="w-full md:w-1/2 relative h-[300px] md:h-auto">
           {/* "About" Text - Fixed positioning for mobile */}
-          <h2 className="absolute top-10 md:top-[-260px] left-0 text-white text-5xl md:text-6xl mb-20 z-10">About</h2>
+          <h2 className="absolute top-0 md:top-[-260px] left-0 text-white text-3xl md:text-6xl mb-20 z-10">About</h2>
 
           {/* Circle on top */}
-          <div className="absolute w-[90px] h-[90px] md:w-[120px] md:h-[120px] bg-gray-500 rounded-full top-0 md:top-[-270px] left-[150px] md:left-[200px]"></div>
+          <div className="absolute w-[60px] h-[60px] md:w-[120px] md:h-[120px] bg-gray-500 rounded-full top-[-10px] md:top-[-270px] left-[100px] md:left-[200px]"></div>
 
           {/* First Square (Left) */}
-          <div className="absolute w-[200px] h-[250px] md:w-[300px] md:h-[350px] bg-gray-500 top-[120px] md:top-[-130px] rounded-[30px]"></div>
+          <div className="absolute w-[130px] h-[150px] md:w-[300px] md:h-[350px] bg-gray-500 top-[60px] md:top-[-130px] rounded-[30px]"></div>
 
           {/* Second Square (Right, overlapping) */}
-          <div className="absolute w-[200px] h-[250px] md:w-[300px] md:h-[350px] bg-gray-500 top-[220px] md:top-[-10px] left-[100px] md:left-[120px] rounded-[30px]"></div>
+          <div className="absolute w-[130px] h-[150px] md:w-[300px] md:h-[350px] bg-gray-500 top-[120px] md:top-[-10px] left-[100px] md:left-[120px] rounded-[30px]"></div>
 
           {/* Circle on bottom */}
-          <div className="absolute w-[60px] h-[60px] bg-gray-500 rounded-full bottom-10 md:top-[270px] left-[20px] md:left-[2px] z-10"></div>
+          <div className="absolute w-[30px] h-[30px] bg-gray-500 rounded-full bottm-10 top-[230px] md:top-[270px] left-[40px] md:left-[2px] z-10"></div>
         </div>
 
         {/* Right Side - Content */}
