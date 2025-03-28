@@ -5,7 +5,7 @@ export default function Works() {
     <section className="bg-black py-10 md:py-20">
     
     <div className='bg-white py-10 md:py-20 mx-auto text-center'>
-        <h2 className='text-purple-500 text-4xl md:text-6xl font-bold'>
+        <h2 className='text-[#be3af2] text-4xl md:text-6xl font-bold'>
         Branding
         </h2>
 

@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Web() {
     return (
-        <section className="bg-white py-10 md:py-20">
-            <div className='bg-white py-10 md:py-20 mx-auto text-center'>
-                <h2 className='text-purple-500 text-4xl md:text-6xl font-bold'>
+        <section>
+            <div className='bg-white pt-10 md:pt-20 mx-auto text-center'>
+                <h2 className='text-[#be3af2] text-4xl md:text-6xl font-bold'>
                     Web
                 </h2>
                 <div className="mt-10">
