@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="max-w-[1286px] mx-auto flex flex-col md:flex-row items-center justify-between py-10 md:py-20 px-4 h-auto md:h-scren">
       {/* Left Side - Text */}
       <div className="max-w-lg text-left">
-        <h1 className="text-5xl md:text-[100px] font-bold md:font-extrabold text-[#be3af2] leading-[0.85]">
+        <h1 className="text-5xl md:text-[100px] font-bold md:font-extrabold text-black leading-[0.85]">
           Creative <span className='italic pl-8 md:pl-0'>Conscience </span>
         </h1>
         <p className="text-xs md:text-base text-black font-bold mt-4 md:mt-6 pl-20 md:pl-0">

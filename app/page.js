@@ -5,6 +5,7 @@ import Explore from '@/components/homepage/Explore'
 import Hero from '@/components/homepage/Hero'
 import Logos from '@/components/homepage/Logos'
 import Skills from '@/components/homepage/Skills'
+import Web from '@/components/homepage/Web'
 import Works from '@/components/homepage/Works'
 import React from 'react'
 
@@ -45,6 +46,7 @@ export default function Home () {
       <section id="portfolio"><Logos /></section>
       <Works />
       <Explore />
+      <Web />
       <section id="contact"><Footer /></section>
        </div>
   )
