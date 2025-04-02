@@ -43,7 +43,7 @@ export default function Footer() {
 
                 {/* Right - Image */}
                 <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
-                    <img src="/homepage/footer.png" alt="Footer Image" className="w-full md:w-[80%] h-auto rounded-lg mb-6" />
+                    <img src="/homepage/black.png" alt="Footer Image" className="w-full md:w-[80%] h-auto rounded-lg mb-6" />
                     
                     {/* Contact Links */}
                     <div className="grid grid-cols-2 gap-4 w-full md:w-auto text-xs md:text-sm">
