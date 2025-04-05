@@ -18,7 +18,7 @@ export default function Hero() {
       {/* Right Side - Image */}
       <div className="w-full md:w-1/2 mt-10 md:mt-0">
         <img
-          src="/homepage/hero.png"
+          src="/homepage/hero.webp"
           alt="Isaac Okoth"
           className="w-full h-auto rounded-lg"
         />

@@ -7,7 +7,7 @@ export default function About() {
       <div className='flex flex-col md:flex-row items-center justify-between px-4 max-w-[1286px] mx-auto'>
         {/* Left Side */}
         <div className='mt-0 md:mt-20 -ml-4 md:-ml-30'>
-        <img src="/homepage/IKE.png" alt="Footer Image" className="w-full h-[500px] md:h-[800px] rounded-lg mb-6" />
+        <img src="/homepage/IKE.webp" alt="Footer Image" className="w-full h-[500px] md:h-[800px] rounded-lg mb-6" />
         </div>
 
         {/* Right Side - Content */}
