@@ -5,19 +5,8 @@ export default function About() {
   return (
     <section className="bg-black text-white min-h-screen pt-20 md:pt-0">
       <div className='flex flex-col md:flex-row items-center justify-between px-4 max-w-[1286px] mx-auto'>
-        {/* Left Side - Geometric Design */}
-        {/* <div className="w-full md:w-1/2 relative h-[300px] md:h-auto">
-          <h2 className="absolute top-0 md:top-[-260px] left-0 text-white text-3xl md:text-6xl mb-20 z-10">About</h2>
-
-          <div className="absolute w-[60px] h-[60px] md:w-[120px] md:h-[120px] bg-gray-500 rounded-full top-[-10px] md:top-[-270px] left-[100px] md:left-[200px]"></div>
-
-          <div className="absolute w-[130px] h-[150px] md:w-[300px] md:h-[350px] bg-gray-500 top-[60px] md:top-[-130px] rounded-[30px]"></div>
-
-          <div className="absolute w-[130px] h-[150px] md:w-[300px] md:h-[350px] bg-gray-500 top-[120px] md:top-[-10px] left-[100px] md:left-[120px] rounded-[30px]"></div>
-
-          <div className="absolute w-[30px] h-[30px] bg-gray-500 rounded-full bottm-10 top-[230px] md:top-[270px] left-[40px] md:left-[2px] z-10"></div>
-        </div> */}
-        <div>
+        {/* Left Side */}
+        <div className='mt-20 md:mt-20 -ml-4 md:-ml-30'>
         <img src="/homepage/IKE.png" alt="Footer Image" className="w-full h-auto md:h-[800px] rounded-lg mb-6" />
         </div>
 
