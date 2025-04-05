@@ -3,11 +3,11 @@ import Icons from '../icons/Icons';
 
 export default function About() {
   return (
-    <section className="bg-black text-white min-h-screen pt-20 md:pt-0">
+    <section className="bg-black text-white min-h-screen pt-10 md:pt-0">
       <div className='flex flex-col md:flex-row items-center justify-between px-4 max-w-[1286px] mx-auto'>
         {/* Left Side */}
-        <div className='mt-20 md:mt-20 -ml-4 md:-ml-30'>
-        <img src="/homepage/IKE.png" alt="Footer Image" className="w-full h-auto md:h-[800px] rounded-lg mb-6" />
+        <div className='mt-0 md:mt-20 -ml-4 md:-ml-30'>
+        <img src="/homepage/IKE.png" alt="Footer Image" className="w-full h-[500px] md:h-[800px] rounded-lg mb-6" />
         </div>
 
         {/* Right Side - Content */}
