@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <section className="max-w-[1286px] mx-auto flex flex-col md:flex-row items-center justify-between py-10 md:py-20 px-4 h-auto md:h-scren">
+    <section className="max-w-[1286px] mx-auto flex flex-col md:flex-row items-center justify-between py-10 md:py-0 px-4 h-auto md:h-scren">
       {/* Left Side - Text */}
       <div className="max-w-lg text-left">
         <h1 className="text-5xl md:text-[100px] font-bold md:font-extrabold text-[#be3af2] leading-[0.85]">
@@ -18,9 +18,9 @@ export default function Hero() {
       {/* Right Side - Image */}
       <div className="w-full md:w-1/2 mt-10 md:mt-0">
         <img
-          src="/homepage/hero.png"
+          src="/homepage/IKE.png"
           alt="Isaac Okoth"
-          className="w-full h-auto rounded-lg"
+          className="w-full h-auto md:h-[900px] rounded-lg"
         />
       </div>
     </section>
