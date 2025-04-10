@@ -1,16 +1,38 @@
 @import "tailwindcss";
 
-:root {
-  --font-space-grotesk: 'Space Grotesk', sans-serif;
-  --font-ibm-plex-serif: 'IBM Plex Serif', serif;
+/* === Custom Fonts === */
+
+/* Lil Grotesk */
+@font-face {
+  font-family: 'Lil Grotesk';
+  src: url('/fonts/LilGrotesk/lilgrotesk-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'Lil Grotesk';
+  src: url('/fonts/LilGrotesk/lilgrotesk-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Neulis Cursive */
+@font-face {
+  font-family: 'Neulis Cursive';
+  src: url('/fonts/NeulisCursive/neulis-cursive-black-italic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* === Global Styles === */
 
 body {
   background: #ffffff;
   color: #000000;
-  font-family: var(--font-ibm-plex-serif);
+  font-family: 'Lil Grotesk', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, nav {
-  font-family: var(--font-space-grotesk);
+  font-family: 'Neulis Cursive', cursive;
 }
