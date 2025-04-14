@@ -17,14 +17,6 @@
   font-style: normal;
 }
 
-/* Neulis Cursive */
-@font-face {
-  font-family: 'Neulis Cursive';
-  src: url('/fonts/NeulisCursive/neulis-cursive-black-italic.otf') format('opentype');
-  font-weight: 900;
-  font-style: italic;
-}
-
 /* === Global Styles === */
 
 body {
@@ -34,5 +26,5 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, nav {
-  font-family: 'Neulis Cursive', cursive;
+  font-family: 'Lil Grotesk', sans-serif;
 }
